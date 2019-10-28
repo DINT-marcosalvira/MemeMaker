@@ -44,7 +44,7 @@
         </Grid>
 
         <Border Height="{Binding ElementName=sliderAlto, Path=Value}" Width="{Binding ElementName=sliderAncho, Path=Value}" BorderBrush="Black" BorderThickness="{Binding ElementName=checkBoxBorde, Path=IsChecked, Converter={StaticResource converter}}">
-            <Grid Margin="6,6,6,6">
+            <Grid>
                 <Image  Stretch="Fill" HorizontalAlignment="Center" Source="{Binding ElementName=textBoxImagen, Path=Text}" Height="{Binding ElementName=sliderAlto, Path=Value}" Width="{Binding ElementName=sliderAncho, Path=Value}" VerticalAlignment="Top"></Image>
                 <TextBlock FontFamily="Impact" FontSize="22" Text="{Binding ElementName=textBoxTextoSuperior, Path=Text}" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="Black"></TextBlock>
                 <TextBlock FontFamily="Impact" FontSize="22" Text="{Binding ElementName=textBoxTextoInferior, Path=Text}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="Black"></TextBlock>
