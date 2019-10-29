@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MemeMaker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" MinHeight="600" MinWidth="800" Icon="128.png">
+        Title="MainWindow" Height="800" Width="800" MinHeight="600" MinWidth="800" Icon="128.png">
     <Window.Resources>
         <local:BorderConverte x:Key="converter"></local:BorderConverte>
     </Window.Resources>
